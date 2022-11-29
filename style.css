@@ -121,11 +121,15 @@ h1 {
     position: relative;
         top: 17.5%;
     padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 15px;
     block-size: border-box;
 
     align-items: flex-end;
     min-width: 700px;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
 
 }
 
