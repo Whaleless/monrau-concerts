@@ -100,6 +100,7 @@ h1 {
 .info-side {
     height: 100%;
     width: 50%;
+    min-width: 700px;
 
     color: white;
 }
@@ -107,10 +108,21 @@ h1 {
 .page-title {
     margin-top: 20%;
     margin-bottom: 10%;
+    padding-left: 25px;
 
     font-family: 'Ruda', sans-serif;
     font-size: 54px;
     font-weight: 400;
+}
+
+.tickets-block {
+    padding-left: 25px;
+    block-size: border-box;
+
+    align-items: flex-end;
+    min-width: 700px;
+    backdrop-filter: blur(10px);
+
 }
 
 .ticket-block {
@@ -119,6 +131,7 @@ h1 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10%;
     justify-items: end;
+    min-width: 660px;
 
 
     margin-right: 50px;
@@ -150,6 +163,7 @@ h1 {
 
 .place-title {
     justify-self: left;
+    align-self: end;
 
     font-family: 'Exo 2', sans-serif;
     font-size: 48px;
@@ -159,9 +173,12 @@ h1 {
 .purchase-button {
     width: 250px;
     height: 70px;
-    border-radius: 9px;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 32px;
+    text-shadow: none !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 9px !important;
+    font-family: 'Rubik Mono One', sans-serif !important;
+    font-size: 32px !important;
     cursor: pointer;
 
 
