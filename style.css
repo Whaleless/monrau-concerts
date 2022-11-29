@@ -106,7 +106,9 @@ h1 {
 }
 
 .page-title {
-    margin-top: 20%;
+    position: relative;
+        top: 20%;
+
     margin-bottom: 10%;
     padding-left: 25px;
 
@@ -116,6 +118,8 @@ h1 {
 }
 
 .tickets-block {
+    position: relative;
+        top: 17.5%;
     padding-left: 25px;
     block-size: border-box;
 
