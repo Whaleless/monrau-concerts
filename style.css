@@ -29,7 +29,7 @@ h1 {
 
 .social-block {
     position: absolute;
-    top: 3%;
+    top: 5%;
     left: 2%;
 }
 
@@ -219,7 +219,7 @@ header {
 }
 
 .logo {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .light {
